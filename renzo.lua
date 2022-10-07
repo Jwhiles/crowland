@@ -1,5 +1,6 @@
 -- renzo
 
+clock.tempo=128
 s = sequins{1,3,5,8,12,15,sequins{17,8,12,8,sequins{5,7}}}
 beats = sequins{
   sequins{2,1,1/4,3,1/4,1/2,1,sequins{1/4,2,4,8},1/4,1/3,1/3,1/3,1/3},
@@ -28,3 +29,4 @@ function time()
 
 clock.run(time)
 clock.run(timetwo)
+
